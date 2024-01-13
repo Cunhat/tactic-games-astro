@@ -1,0 +1,125 @@
+---
+
+---
+
+<div class="flex justify-center">
+  <div class="container">
+    <div class="scroller" data-direction="right" data-speed="slow">
+      <div class="scroller__inner">
+        <img
+          src="/img/partners/planeta_crossfit.png"
+          class="w-[100px] h-[100px] sm:w-[150px] sm:h-[150px]"
+          alt="logo-img"
+        />
+        <img
+          src="/img/partners/lynxRace.jpg"
+          class="w-[150px] h-[100px] sm:w-[250px] sm:h-[150px]"
+          alt="logo-img"
+        />
+        <img
+          src="/img/partners/Logo_VFX.png"
+          class="w-[100px] h-[100px] sm:w-[150px] sm:h-[150px]"
+          alt="logo-img"
+        />
+
+        <img
+          src="/img/partners/pwrdByCoffe.jpg"
+          class="w-[180px] h-[100px] sm:w-[280px] sm:h-[150px]"
+          alt="logo-img"
+        />
+        <img
+          src="/img/partners/handstand.png"
+          class="w-[100px] h-[100px] sm:w-[150px] sm:h-[150px]"
+          alt="logo-img"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  const scrollers = document.querySelectorAll(".scroller");
+
+  scrollers.forEach((scroller) => {
+    // add data-animated="true" to every `.scroller` on the page
+    scroller.setAttribute("data-animated", "true");
+
+    // Make an array from the elements within `.scroller-inner`
+    const scrollerInner = scroller.querySelector(".scroller__inner");
+    const scrollerContent = Array.from(scrollerInner?.children);
+
+    // For each item in the array, clone it
+    // add aria-hidden to it
+    // add it into the `.scroller-inner`
+    scrollerContent.forEach((item) => {
+      const duplicatedItem = item.cloneNode(true);
+      // @ts-ignore
+      duplicatedItem.setAttribute("aria-hidden", true);
+      scrollerInner?.appendChild(duplicatedItem);
+    });
+  });
+</script>
+
+<style>
+  .scroller {
+    max-width: 100%;
+
+    @media (max-width: 640px) {
+      max-width: 100vw;
+    }
+  }
+
+  .scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(
+      90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+    );
+    mask: linear-gradient(
+      90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+    );
+  }
+
+  .scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 40s)
+      var(--_animation-direction, forwards) linear infinite;
+  }
+
+  .scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+  }
+
+  .scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+  }
+
+  .scroller[data-speed="fast"] {
+    --_animation-duration: 20s;
+  }
+
+  .scroller[data-speed="slow"] {
+    --_animation-duration: 60s;
+  }
+
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }
+</style>
