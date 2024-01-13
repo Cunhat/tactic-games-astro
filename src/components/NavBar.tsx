@@ -5,9 +5,16 @@ import { cn } from "../lib/utils";
 export const Navbar = () => {
   const [show, setShow] = React.useState(false);
 
+  React.useEffect(() => {
+    if (show) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [show]);
+
   const handleClick = () => {
     setShow(!show);
-    console.log(show);
   };
 
   return (
