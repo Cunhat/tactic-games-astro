@@ -1,5 +1,5 @@
 ---
-
+import Division from "./Division.astro";
 ---
 
 <section class="w-full bg-black flex justify-center">
@@ -18,38 +18,29 @@
       </p>
     </div>
     <div
-      class="grid w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-center px-12"
+      class="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 items-center justify-center px-4"
     >
-      <div
-        class="p-6 border-2 border-gray-700 rounded-lg bg-gray-800 shadow-lg transform hover:scale-105 transition-transform duration-200"
-      >
-        <h3 class="text-2xl font-bold text-gray-100">Elite</h3>
-        <p class="text-gray-400">$175</p>
-      </div>
-      <div
-        class="p-6 border-2 border-gray-700 rounded-lg bg-gray-800 shadow-lg transform hover:scale-105 transition-transform duration-200"
-      >
-        <h3 class="text-2xl font-bold text-gray-100">RX</h3>
-        <p class="text-gray-400">$700</p>
-      </div>
-      <div
-        class="p-6 border-2 border-gray-700 rounded-lg bg-gray-800 shadow-lg transform hover:scale-105 transition-transform duration-200"
-      >
-        <h3 class="text-2xl font-bold text-gray-100">Extreme</h3>
-        <p class="text-gray-400">$700</p>
-      </div>
-      <div
-        class="p-6 border-2 border-gray-700 rounded-lg bg-gray-800 shadow-lg transform hover:scale-105 transition-transform duration-200"
-      >
-        <h3 class="text-2xl font-bold text-gray-100">Masters</h3>
-        <p class="text-gray-400">$700</p>
-      </div>
-      <div
-        class="p-6 border-2 border-gray-700 rounded-lg bg-gray-800 shadow-lg transform hover:scale-105 transition-transform duration-200"
-      >
-        <h3 class="text-2xl font-bold text-gray-100">Scaled</h3>
-        <p class="text-gray-400">$600</p>
-      </div>
+      <Division
+        title="Elite"
+        subTitle="1750€"
+        img="/img/divisions/elite.jpeg"
+      />
+      <Division title="Rx" subTitle="700€" img="/img/divisions/rx.jpg" />
+      <Division
+        title="Extreme"
+        subTitle="700€"
+        img="/img/divisions/extreme.jpg"
+      />
+      <Division
+        title="Masters"
+        subTitle="700€"
+        img="/img/divisions/masters.jpeg"
+      />
+      <Division
+        title="Scaled"
+        subTitle="600€"
+        img="/img/divisions/scaled.jpeg"
+      />
     </div>
   </div>
 </section>

@@ -18,7 +18,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="p-3 top-0 z-50 w-full bg-black sm:gap-24 justify-center flex">
+    <nav className="p-3 top-0 sticky z-50 w-full bg-black sm:gap-24 justify-center flex">
       <div className="container flex w-full justify-between sm:justify-center items-center">
         <img src="/img/logo.png" alt="logo-img" width="60" height="60" />
         <Icons.menu className="h-8 w-8 sm:hidden" onClick={handleClick} />
