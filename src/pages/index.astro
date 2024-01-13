@@ -3,7 +3,31 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main></main>
+  <div class="gap-24 flex flex-col">
+    <div class="h-[calc(100dvh-92px)] w-full relative flex">
+      <div
+        class="bg-black/60 absolute top-0 left-0 right-0 bottom-0 z-10 h-full w-full flex flex-col justify-center items-center gap-4"
+      >
+        <h1 class="text-5xl sm:text-7xl font-kanit bold">1 · 2 · 3 DEZ 2024</h1>
+        <h1 class="text-xl sm:text-5xl font-kanit">VILA FRANCA XIRA</h1>
+        <button class="text-base sm:text-lg bg-primary rounded-lg p-4">
+          INCRICOES EM BREVE
+        </button>
+      </div>
+      <video
+        autoPlay
+        muted
+        loop
+        id="homepage-video"
+        class="h-full w-full object-cover"
+      >
+        <source src="/videos/tacticGames.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <!-- <Partners />
+    <PrizeMoney />
+    <Location /> -->
+  </div>
 </Layout>
 
 <style></style>
