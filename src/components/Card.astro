@@ -5,9 +5,10 @@ interface Props {
   title: string;
   img: string;
   className?: string;
+  url: string;
 }
 
-const { title, img, className } = Astro.props;
+const { title, img, className, url } = Astro.props;
 ---
 
 <div
@@ -17,7 +18,8 @@ const { title, img, className } = Astro.props;
     className
   )}
 >
-  <div
+  <a
+    href={url}
     class="absolute top-0 right-0 left-0 bottom-0 bg-black/70 flex flex-col justify-center items-center gap-3"
   >
     <h3
@@ -25,5 +27,5 @@ const { title, img, className } = Astro.props;
     >
       {title}
     </h3>
-  </div>
+  </a>
 </div>

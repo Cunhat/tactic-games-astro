@@ -57,16 +57,16 @@ const ListOfPages: React.FC<React.HTMLAttributes<HTMLUListElement>> = ({
     {...props}
   >
     <li className="text-3xl sm:text-lg font-semibold text-center hover:cursor-pointer hover:text-primary">
-      INÍCIO
+      <a href="/">INÍCIO</a>
     </li>
     <li className="text-3xl sm:text-lg font-semibold text-center hover:cursor-pointer hover:text-primary">
-      INSCRIÇÕES
+      <a href="/inscricoes">INSCRIÇÕES</a>
     </li>
     <li className="text-3xl sm:text-lg font-semibold text-center hover:cursor-pointer hover:text-primary">
-      REGULAMENTO
+      <a href="/regulamento">REGULAMENTO</a>
     </li>
     <li className="text-3xl sm:text-lg font-semibold text-center hover:cursor-pointer hover:text-primary">
-      GALERIA
+      <a href="/galeria">GALERIA</a>
     </li>
   </ul>
 );
