@@ -1,61 +1,29 @@
 ---
+import { cn } from "../lib/utils";
+
 interface Props {
-	title: string;
-	body: string;
-	href: string;
+  title: string;
+  img: string;
+  className?: string;
 }
 
-const { href, title, body } = Astro.props;
+const { title, img, className } = Astro.props;
 ---
 
-<li class="link-card">
-	<a href={href}>
-		<h2>
-			{title}
-			<span>&rarr;</span>
-		</h2>
-		<p>
-			{body}
-		</p>
-	</a>
-</li>
-<style>
-	.link-card {
-		list-style: none;
-		display: flex;
-		padding: 1px;
-		background-color: #23262d;
-		background-image: none;
-		background-size: 400%;
-		border-radius: 7px;
-		background-position: 100%;
-		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-	}
-	.link-card > a {
-		width: 100%;
-		text-decoration: none;
-		line-height: 1.4;
-		padding: calc(1.5rem - 1px);
-		border-radius: 8px;
-		color: white;
-		background-color: #23262d;
-		opacity: 0.8;
-	}
-	h2 {
-		margin: 0;
-		font-size: 1.25rem;
-		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-	}
-	p {
-		margin-top: 0.5rem;
-		margin-bottom: 0;
-	}
-	.link-card:is(:hover, :focus-within) {
-		background-position: 0;
-		background-image: var(--accent-gradient);
-	}
-	.link-card:is(:hover, :focus-within) h2 {
-		color: rgb(var(--accent-light));
-	}
-</style>
+<div
+  style={{ "--image-url": `url(${img})` }}
+  class={cn(
+    "p-6 w-full h-full rounded-lg bg-[image:var(--image-url)] bg-cover bg-center shadow-lg transform lg:hover:scale-105 transition-transform duration-200 relative",
+    className
+  )}
+>
+  <div
+    class="absolute top-0 right-0 left-0 bottom-0 bg-black/70 flex flex-col justify-center items-center gap-3"
+  >
+    <h3
+      class="sm:text-3xl lg:text-4xl xl:text-3xl text-2xl font-bold text-gray-100"
+    >
+      {title}
+    </h3>
+  </div>
+</div>
