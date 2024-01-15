@@ -7,7 +7,8 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#a28d4f"
+				primary: "#a28d4f",
+				"primary-700": "#705838",
 			},
 			fontFamily: {
 				satoshi: ["Satoshi", ...defaultTheme.fontFamily.sans],

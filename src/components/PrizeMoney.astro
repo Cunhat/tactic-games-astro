@@ -18,30 +18,37 @@ import Division from "./Division.astro";
       </p>
     </div>
     <div
-      class="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 items-center justify-center px-4"
+      class="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-5 gap-4 items-center justify-center px-4"
     >
       <Division
         title="Scaled"
         subTitle="600€"
         img="/img/divisions/scaled.jpeg"
+        className="md:col-span-2 lg:col-span-1"
       />
       <Division
         title="Masters"
         subTitle="700€"
         img="/img/divisions/masters.jpeg"
-        className=""
+        className="md:col-span-2 lg:col-span-1"
       />
-      <Division title="Rx" subTitle="700€" img="/img/divisions/rx.jpg" />
+      <Division
+        title="Rx"
+        subTitle="700€"
+        img="/img/divisions/rx.jpg"
+        className="md:col-span-2 lg:col-span-1"
+      />
       <Division
         title="Extreme"
         subTitle="700€"
         img="/img/divisions/extreme.jpg"
+        className="md:col-span-3 lg:col-span-1"
       />
       <Division
         title="Elite"
         subTitle="1750€"
         img="/img/divisions/elite.jpeg"
-        className="col-span-2 sm:col-span-2 md:col-span-1"
+        className="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-1"
       />
     </div>
   </div>
