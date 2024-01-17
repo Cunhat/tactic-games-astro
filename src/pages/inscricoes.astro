@@ -3,6 +3,70 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Tactic Games - Inscrições">
-  <h1>Inscrições</h1>
-  <p>Em breve</p>
+  <main class="flex items-center flex-col gap-6">
+    <div class="gap-24 flex flex-col items-center w-full">
+      <div
+        class="h-[calc(35dvh-86px)] sm:h-[calc(50dvh-86px)] w-full relative flex"
+      >
+        <div
+          class="bg-black/60 absolute top-0 left-0 right-0 bottom-0 z-10 h-full w-full flex flex-col justify-center items-center gap-4"
+        >
+          <h1 class="text-4xl sm:text-5xl font-kanit bold">Inscrições</h1>
+        </div>
+        <img
+          class="object-cover h-auto w-full"
+          src="/img/group.jpeg"
+          alt="Tactic Games"
+        />
+      </div>
+    </div>
+    <div class="container p-3">
+      <div
+        class="grid grid-rows-[auto_auto_auto] md:grid-cols-3 justify-center gap-4 md:gap-3"
+      >
+        <div class="flex flex-col gap-3 text-center">
+          <h1 class="text-2xl text-primary font-bold">
+            Como fazer a Inscrição?
+          </h1>
+          <p>
+            Basta enviares o comprovativo de pagamento para o
+            tacticgames2023@gmail.com com os seguintes dados:
+          </p>
+          <ul class="flex flex-col gap-3">
+            <li>- Nome da Equipa</li>
+            <li>- Nome de cada Atleta</li>
+            <li>- Data de Nascimento</li>
+            <li>- Categoria que se inscreve</li>
+            <li>- Tamanho da T-shirt</li>
+            <li>- Contacto Telefónico</li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3 text-center">
+          <h1 class="text-2xl text-primary font-bold">Métodos de Pagamento</h1>
+          <ul class="flex flex-col gap-3">
+            <li>MBWAY: 92486800</li>
+            <li>IBAN: PT504587354037743779081</li>
+            <li>BIC: CCCMPTPL</li>
+          </ul>
+          <h1 class="text-2xl text-primary font-bold">
+            Pagamento de Serviços:
+          </h1>
+          <ul>
+            <li>ENTIDADE: 20484</li>
+            <li>REFERÊNCIA: 034066340</li>
+            <li>VALOR: €€</li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3 text-center">
+          <h1 class="text-2xl text-primary font-bold">Preço por Atleta</h1>
+          <ul class="flex flex-col gap-3">
+            <li>1ª Fase - 35€</li>
+            <li>4 Atletas - 140€</li>
+            <li>5 Atletas - 175€</li>
+            <li>6 Atletas - 210€</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
 </Layout>
