@@ -65,8 +65,8 @@ const ListOfPages: React.FC<React.HTMLAttributes<HTMLUListElement>> = ({
     <li className="text-3xl sm:text-lg font-semibold text-center hover:cursor-pointer hover:text-primary">
       <a href="/regulamento">REGULAMENTO</a>
     </li>
-    <li className="text-3xl sm:text-lg font-semibold text-center hover:cursor-pointer hover:text-primary">
+    {/* <li className="text-3xl sm:text-lg font-semibold text-center hover:cursor-pointer hover:text-primary">
       <a href="/galeria">GALERIA</a>
-    </li>
+    </li> */}
   </ul>
 );
