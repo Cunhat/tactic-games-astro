@@ -4,10 +4,8 @@ layout: "../layouts/Rules.astro"
 
 # Regulamento Tactic Games 2023
 
-O presente documento visa explicar a competição, bem como estabelecer as regras que a vão\
-pautar.\
-Os atletas inscritos na competição ficam vinculados ao cumprimento das regras definidas no\
-presente regulamento.
+O presente documento visa explicar a competição, bem como estabelecer as regras que a vão pautar.\
+Os atletas inscritos na competição ficam vinculados ao cumprimento das regras definidas no presente regulamento.
 
 ### 1\. Competição
 
@@ -22,17 +20,25 @@ A competição será realizada nos dias 01,02 e 03 de dezembro de 2023 no Pavilh
 **1.3 Categorias**
 
 **a)** A competição será dividida em 5 categorias: Scaled, RX, Masters, Elite, EXTREME;\
+\
 **b)** Nas categorias Scaled, RX, Elite, XTREME são permitidas inscrições de atletas que tenham, à data de início da competição, idade igual ou superior a 18 anos;\
+\
 **c)** Na categoria Masters são permitidas inscrições de atletas que tenham, à data de início da competição, idade igual ou superior a 35 anos;\
+\
 **d)** Cada categoria terá o número mínimo de 10 equipas inscritas;\
+\
 **e)** A organização, através das suas redes sociais, compromete-se a partilhar os standards para cada uma das categorias;
 
 **1.4 Constituição das equipas**
 
 **a)** As provas têm de ser realizadas por um mínimo de 4 elementos por equipa;\
+\
 **b)** As equipas podem ter um máximo de 6 elementos (a inscrição do 5o e 6o atletas na equipa é opcional);\
+\
 **c)** É proibido substituir elementos durante a realização de uma prova;\
+\
 **d)** As categorias Scaled, RX, Masters, Elite, obrigatoriamente realizam as provas com 2 atletas do sexo masculino e 2 do sexo feminino;\
+\
 **e)** A categoria XTREME não tem obrigatoriedade em relação ao sexo dos elementos (ex. pode ser uma equipa de 4 homens);
 
 ### 2\. Inscrição
@@ -51,12 +57,17 @@ A competição será realizada nos dias 01,02 e 03 de dezembro de 2023 no Pavilh
 
 **2.7** As inscrições serão feitas em 3 fases nas datas e com valores infra:
 
-**1ª Fase**
-01 de agosto a 15 de setembro - Valor por atleta 35 euros
+**1ª Fase**\
+01 de agosto a 15 de setembro\
+Valor por atleta 35 euros
 
-**2ª Fase** - 16 de setembro a 10 de outubro - Valor por atleta 40 euros
+**2ª Fase**\
+16 de setembro a 10 de outubro\
+Valor por atleta 40 euros
 
-**3ª Fase** - 11 de outubro a 10 de novembro - Valor por atleta 45 euros
+**3ª Fase**\
+11 de outubro a 10 de novembro\
+Valor por atleta 45 euros
 
 ### 3\. Pontuação e Classificação
 
@@ -87,12 +98,12 @@ A competição será realizada nos dias 01,02 e 03 de dezembro de 2023 no Pavilh
 **Elite (Dinheiro)**\
 1° - 1.000€\
 2° - 500€\
-3° - 250€\
+3° - 250€
 
 **Extreme,RX e Masters (Dinheiro e Prémios)**\
-1° 400€ - Dinheiro\
-2° 200€ - Prémios\
-3° 100€ - Prémios\
+1° - 400€ - Dinheiro\
+2° - 200€ - Prémios\
+3° - 100€ - Prémios
 
 **Scaled (Prémios)**\
 1° - 300€\
