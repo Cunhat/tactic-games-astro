@@ -20,7 +20,7 @@ export const Navbar = () => {
   return (
     <nav className="p-3 top-0 sticky z-50 w-full bg-black sm:gap-24 justify-center flex">
       <div className="container flex w-full justify-between sm:justify-center items-center">
-        <a href="/">
+        <a href="/" aria-label="main-icon">
           <img src="/img/logo.png" alt="logo-img" width="60" height="60" />
         </a>
         <Icons.menu className="h-8 w-8 sm:hidden" onClick={handleClick} />
@@ -59,13 +59,19 @@ const ListOfPages: React.FC<React.HTMLAttributes<HTMLUListElement>> = ({
     {...props}
   >
     <li className="text-3xl sm:text-lg font-semibold font-kanit text-center hover:cursor-pointer hover:text-primary">
-      <a href="/">Inicío</a>
+      <a href="/" aria-label="home-link">
+        Inicío
+      </a>
     </li>
     <li className="text-3xl sm:text-lg font-semibold font-kanit text-center hover:cursor-pointer hover:text-primary">
-      <a href="/inscricoes">Inscrições</a>
+      <a href="/inscricoes" aria-label="registrations-link">
+        Inscrições
+      </a>
     </li>
     <li className="text-3xl sm:text-lg font-semibold font-kanit text-center hover:cursor-pointer hover:text-primary">
-      <a href="/regulamento">Regulamento</a>
+      <a href="/regulamento" aria-label="rules-link">
+        Regulamento
+      </a>
     </li>
     {/* <li className="text-3xl sm:text-lg font-semibold text-center hover:cursor-pointer hover:text-primary">
       <a href="/galeria">GALERIA</a>
