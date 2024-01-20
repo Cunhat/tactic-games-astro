@@ -7,7 +7,7 @@ layout: "../layouts/Rules.astro"
 O presente documento visa explicar a competição, bem como estabelecer as regras que a vão pautar.\
 Os atletas inscritos na competição ficam vinculados ao cumprimento das regras definidas no presente regulamento.
 
-### 1\. Competição
+## 1\. Competição
 
 **1.1 Tipo**
 
@@ -41,7 +41,7 @@ A competição será realizada nos dias 01,02 e 03 de dezembro de 2023 no Pavilh
 \
 **e)** A categoria XTREME não tem obrigatoriedade em relação ao sexo dos elementos (ex. pode ser uma equipa de 4 homens);
 
-### 2\. Inscrição
+## 2\. Inscrição
 
 **2.1** A inscrição deve ser feita através do link disponibilizado na rede social da competição (Instagram: @Tactic.games);
 
@@ -69,7 +69,7 @@ Valor por atleta 40 euros
 11 de outubro a 10 de novembro\
 Valor por atleta 45 euros
 
-### 3\. Pontuação e Classificação
+## 3\. Pontuação e Classificação
 
 **3.1** As classificações dos desafios serão publicadas com a maior brevidade possível após a realização dos mesmos;
 
@@ -79,7 +79,7 @@ Valor por atleta 45 euros
 
 **3.4** Qualquer reclamação ao resultado obtido na prova deve ser apresentada pela equipa ao Head Judge 15m após o seu final. Será aplicada uma taxa de pagamento pela reclamação;
 
-### 4\. Conduta
+## 4\. Conduta
 
 **4.1** O mau comportamento (insulto e/ou agressão a outro atleta, juíz e/ou voluntário) levará à desqualificação da equipa;
 
@@ -87,13 +87,13 @@ Valor por atleta 45 euros
 
 **4.3** Todos os atletas deverão mostrar uma boa conduta desportiva, cumprindo com as regras e standards de movimento dos desafios e respeito por todos os membros da organização e atletas;
 
-### 5\. Equipamento
+## 5\. Equipamento
 
 **5.1** Não são permitidos: Wrist Straps; Camisas/Fatos de Força (Powerlifting); Knees Wraps (Powerlifting);
 
 **5.2** Todos os acessórios não mencionados que ofereçam dúvidas devem ser autorizados pela organização;
 
-### 6\. Prémios
+## 6\. Prémios
 
 **Elite (Dinheiro)**\
 1° - 1.000€\
@@ -110,6 +110,6 @@ Valor por atleta 45 euros
 2° - 200€\
 3° - 100€
 
-### 7\. Proteção de dados e consentimento
+## 7\. Proteção de dados e consentimento
 
 Nos termos do Regulamento Geral de Proteção de Dados (RGPD), a inscrição nos TACTIC GAMES 2023 prevê que aceita e cede a recolha e tratamento dos seus dados pessoais para os fins designados à participação no evento, assim como o registo de imagem em formato de fotografia e/ou de vídeo. A este respeito, salienta-se que o referido reportório poderá ser utilizado para partilha, divulgação e publicidade do evento. Reservando-se o direito de revogar este consentimento, em qualquer altura, e solicitar que os dados sejam apagados.
