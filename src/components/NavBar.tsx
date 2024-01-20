@@ -34,7 +34,7 @@ export const Navbar = () => {
             />
 
             <Icons.close
-              className="h-8 w-8 absolute top-3 right-3"
+              className="h-8 w-8 absolute top-7 right-3"
               onClick={() => setShow(!show)}
             />
             <ListOfPages />
