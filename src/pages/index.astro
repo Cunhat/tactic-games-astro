@@ -27,11 +27,12 @@ import Info from "../components/Info.astro";
         playsinline
         id="homepage-video"
         class="h-full w-full object-cover"
+        transition:persist
       >
         <source src="/videos/tacticGames.mp4" type="video/mp4" />
       </video>
     </div>
-    <Partners />
+    <Partners transition:persist />
     <PrizeMoney />
     <Info />
     <Map />
