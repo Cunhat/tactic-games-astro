@@ -73,8 +73,13 @@ const ListOfPages: React.FC<React.HTMLAttributes<HTMLUListElement>> = ({
         Regulamento
       </a>
     </li>
-    {/* <li className="text-3xl sm:text-lg font-semibold text-center hover:cursor-pointer hover:text-primary">
-      <a href="/galeria">GALERIA</a>
-    </li> */}
+    <li className="text-3xl sm:text-lg font-semibold font-kanit text-center hover:cursor-pointer hover:text-primary">
+      <a
+        href="https://drive.google.com/file/d/1XxzP_xO5Tk5doeq51AFFhQGKzkeRdK-P/view"
+        target="_blank"
+      >
+        Standarts
+      </a>
+    </li>
   </ul>
 );
