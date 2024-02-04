@@ -111,15 +111,20 @@ Valor por atleta 60 euros
 
 ## 6\. Prémios
 
-**Extreme,RX, Masters e Duplas Extreme (Dinheiro e Prémios)**\
-1° 400€ - Dinheiro\
-2° 200€ - Prémios\
-3° 100€ - Prémios
-
 **Scaled (Prémios)**\
 1° - 300€\
 2° - 200€\
 3° - 100€
+
+**Extreme,RX e Masters (Dinheiro e Prémios)**\
+1° 400€ - Dinheiro\
+2° 200€ - Prémios\
+3° 100€ - Prémios
+
+**Duplas Extreme (Dinheiro e Prémios)**\
+1° 200€ - Dinheiro\
+2° 150€ - Prémios\
+3° 100€ - Prémios
 
 ## 7\. Proteção de dados e consentimento
 
