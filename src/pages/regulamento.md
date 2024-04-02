@@ -13,7 +13,7 @@ Os atletas inscritos na competição ficam vinculados ao cumprimento das regras 
 
 Os Tactic Games são uma competição de crosstraining em equipas, contemplando os 10 skills da performance física;
 
-**1.2 Data e Local\***
+**1.2 Data e Local**
 
 A competição será realizada nos dias 22 e 23 de junho de 2024 no Pavilhão Multiusos de Vila Franca de Xira;
 
@@ -28,7 +28,7 @@ Duplas EXTREME;\
 \
 **d)** Cada categoria terá o número mínimo de 10 equipas inscritas;\
 \
-**e)** A organização, através das suas redes sociais, compromete-se a partilhar os standards para cada uma das categorias;\
+**e)** A organização, através das suas redes sociais, compromete-se a partilhar os standards para cada uma das categorias;
 
 **1.4 Constituição das equipas – Categorias Scaled, RX, Masters e EXTREME**
 
@@ -47,13 +47,13 @@ Duplas EXTREME;\
 **1.5 Constituição das equipas – Categoria Duplas EXTREME**\
 **a)** As provas têm de ser realizadas por um mínimo de 2 atletas por equipa;\
 \
-**b)** As equipas podem ter um máximo de 3 atletas (a inscrição do 3o atleta é opcional);\
+**b)** As equipas podem ter um máximo de 3 atletas (a inscrição do 3º atleta é opcional);\
 \
 **c)** É proibido substituir atletas durante a realização de uma prova;\
 \
 **d)** Esta categoria não tem obrigatoriedade em relação ao sexo dos atletas (ex. pode ser uma equipa de: Masc.+Masc./Fem.+Fem./Masc.+Fem.)\
 \
-**e)** Caso a equipa não tenha o número mínimo de atletas necessário para realização de uma prova, não pode participar na mesma e a sua pontuação é nula;\
+**e)** Caso a equipa não tenha o número mínimo de atletas necessário para realização de uma prova, não pode participar na mesma e a sua pontuação é nula;
 
 ## 2\. Inscrição
 
