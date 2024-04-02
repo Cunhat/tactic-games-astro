@@ -78,7 +78,7 @@ const ListOfPages: React.FC<React.HTMLAttributes<HTMLUListElement>> = ({
         href="https://drive.google.com/file/d/1XxzP_xO5Tk5doeq51AFFhQGKzkeRdK-P/view"
         target="_blank"
       >
-        Standarts
+        Standards
       </a>
     </li>
   </ul>
