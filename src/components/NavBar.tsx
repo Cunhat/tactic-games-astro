@@ -25,7 +25,7 @@ export const Navbar = () => {
         </a>
         <Icons.menu className="h-8 w-8 sm:hidden" onClick={handleClick} />
         {show && (
-          <div className="pt-[20%] p-4 absolute z-50 top-0 left-0 right-0 bottom-0 bg-black h-screen w-screen flex flex-col gap-[10%] items-center">
+          <div className="pt-[20%] p-4 absolute z-50 top-0 left-0 right-0 bottom-0 bg-black h-[100dvh] flex flex-col gap-[10%] items-center">
             <img
               src="/img/logo.png"
               width={"70%"}
